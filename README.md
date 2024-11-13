@@ -19,13 +19,13 @@
 
 # Changelog
 
-* 2024-11-15 v2.15
+* 2025-05-15 v2.16
   * Initial release in Universal Dependencies.
 
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: UD v2.15
+Data available since: UD v2.16
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: grammar-examples
