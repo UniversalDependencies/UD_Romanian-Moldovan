@@ -34,7 +34,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Caftanatov, Olesea
+Contributors: Caftanatov, Olesea; Ojha, Atul Kr.
 Contributing: here
 Contact: olesea.caftanatov@math.md
 ===============================================================================
