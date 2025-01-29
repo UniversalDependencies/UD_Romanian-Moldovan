@@ -1,0 +1,334 @@
+# newdoc id = .\test ro.txt
+# sent_id = 1
+# text = Черул курат де трэснет ну се теме.
+1	Черул	Чер	NOUN	_	_	7	nsubj	_	_
+2	курат	курат	ADJ	_	_	1	amod	_	_
+3	де	де	ADP	_	_	4	case	_	_
+4	трэснет	трэснет	NOUN	_	_	7	obj	_	_
+5	ну	ну	PART	_	_	7	advmod	_	_
+6	се	сине	PRON	_	_	7	expl:pv	_	_
+7	теме	теме	VERB	_	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 2
+# text = Черул, пэмынтул, фокул ши апа н’ау жудекатэ.
+1	Черул	Чер	NOUN	_	_	9	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	пэмынтул	пэмынт	NOUN	_	_	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	фокул	фок	NOUN	_	_	1	conj	_	_
+6	ши	ши	CCONJ	_	_	7	cc	_	_
+7	апа	апэ	NOUN	_	_	1	conj	_	_
+8-9	н’ау	_	_	_	_	_	_	_	_
+8	н'	ну	PART	_	_	9	advmod	_	_
+9	ау	авя	VERB	_	_	0	root	_	_
+10	жудекатэ	жудекатэ	NOUN	_	_	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 3
+# text = А фи фрумос ка ун соаре.
+1	А	а	PART	_	_	3	mark	_	_
+2	фи	фи	AUX	_	_	3	cop	_	_
+3	фрумос	фрумос	ADJ	_	_	0	root	_	_
+4	ка	ка	ADV	_	_	6	case	_	_
+5	ун	ун	DET	_	_	6	det	_	_
+6	соаре	соаре	NOUN	_	_	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 4
+# text = Ши тина лучеште, кынд соареле о избеште.
+1	Ши	ши	CCONJ	_	_	2	cc	_	_
+2	тина	тинэ	NOUN	_	_	3	nsubj	_	_
+3	лучеште	лучи	VERB	_	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	кынд	кынд	ADV	_	_	8	advmod	_	_
+6	соареле	соаре	NOUN	_	_	8	nsubj	_	_
+7	о	ел	PRON	_	_	6	det	_	_
+8	избеште	изби	VERB	_	_	3	advcl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 5
+# text = Ши пе соаре сынт пете.
+1	Ши	ши	CCONJ	_	_	5	cc	_	_
+2	пе	пе	ADP	_	_	3	case	_	_
+3	соаре	соаре	NOUN	_	_	5	nmod	_	_
+4	сынт	фи	AUX	_	_	5	cop	_	_
+5	пете	патэ	NOUN	_	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 6
+# text = А фи вэзут де соаре.
+1	А	а	PART	_	_	3	mark	_	_
+2	фи	фи	AUX	_	_	3	cop	_	_
+3	вэзут	ведя	VERB	_	_	0	root	_	_
+4	де	де	ADP	_	_	5	case	_	_
+5	соаре	соаре	NOUN	_	_	3	nsubj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 7
+# text = Унде ну ынтрэ соареле, ынтрэ докторул.
+1	Унде	унде	ADV	_	_	3	advmod	_	_
+2	ну	ну	PART	_	_	3	advmod	_	_
+3	ынтрэ	ынтра	VERB	_	_	6	advcl	_	_
+4	соареле	соаре	NOUN	_	_	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	ынтрэ	ынтра	VERB	_	_	0	root	_	_
+7	докторул	доктор	NOUN	_	_	6	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 8
+# text = А лепэда соареле кожокул.
+1	А	а	PART	_	_	2	mark	_	_
+2	лепэда	лепэда	VERB	_	_	0	root	_	_
+3	соареле	соаре	NOUN	_	_	2	nsubj	_	_
+4	кожокул	кожок	NOUN	_	_	3	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 9
+# text = Соаре ку динць.
+1	Соаре	соаре	NOUN	_	_	0	root	_	_
+2	ку	ку	ADP	_	_	3	case	_	_
+3	динць	динте	NOUN	_	_	1	nmod	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 10
+# text = Ый май калд соареле, кынд рэсаре, декыт кынд асфинцеште.
+1	Ый	фи	VERB	_	_	0	root	_	_
+2	май	май	ADV	_	_	3	advmod	_	_
+3	калд	калд	ADJ	_	_	1	amod	_	_
+4	соареле	соаре	NOUN	_	_	1	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	кынд	кынд	ADV	_	_	4	advmod	_	_
+7	рэсаре	рэсэри	VERB	_	_	4	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	декыт	декыт	ADV	_	_	11	advmod	_	_
+10	кынд	кынд	ADV	_	_	11	advmod	_	_
+11	асфинцеште	асфинци	VERB	_	_	4	advcl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 11
+# text = Дупэ зиле сенине ши ку соаре, вин зиле плойоасе ши ку вынтурь.
+1	Дупэ	дупэ	ADP	_	_	2	case	_	_
+2	зиле	зи	NOUN	_	_	8	nsubj	_	_
+3	сенине	сенин	ADJ	_	_	2	amod	_	_
+4	ши	ши	CCONJ	_	_	2	cc	_	_
+5	ку	ку	ADP	_	_	2	case	_	_
+6	соаре	соаре	NOUN	_	_	2	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	вин	вени	VERB	_	_	0	root	_	_
+9	зиле	зи	NOUN	_	_	8	obj	_	_
+10	плойоасе	плойос	ADJ	_	_	9	conj	_	_
+11	ши	ши	CCONJ	_	_	9	cc	_	_
+12	ку	ку	ADP	_	_	9	case	_	_
+13	вынтурь	вынт	NOUN	_	_	9	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 12
+# text =Время де винерь ну цине.
+1	Время	време	NOUN	_	_	5	nsubj	_	_
+2	де	де	ADP	_	_	3	case	_	_
+3	винерь	винерь	NOUN	_	_	1	nmod	_	_
+4	ну	ну	PART	_	_	5	advmod	_	_
+5	цине	цине	VERB	_	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 13
+# text = Плоая каре ынчепе ынчет, ый плоае бунэ.
+1	Плоая	плоае	NOUN	_	_	0	root	_	_
+2	каре	каре	PRON	_	_	3	nsubj	_	_
+3	ынчепе	ынчепе	VERB	_	_	1	acl	_	_
+4	ынчет	ынчет	ADV	_	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	ый	ый	VERB	_	_	7	iobj	_	_
+7	плоае	плоае	NOUN	_	_	3	obl	_	_
+8	бунэ	бун	ADJ	_	_	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 14
+# text =Плоая де диминяцэ ну цине мулт.
+1	Плоая	плоае	NOUN	_	_	5	nsubj	_	_
+2	де	де	ADP	_	_	3	case	_	_
+3	диминяцэ	диминяцэ	NOUN	_	_	1	nmod	_	_
+4	ну	ну	PART	_	_	5	advmod	_	_
+5	цине	цине	VERB	_	_	0	root	_	_
+6	мулт	мулт	ADV	_	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 15
+# text = Плоая диминяца ка хора де бабе.
+1	Плоая	плоае	NOUN	_	_	0	root	_	_
+2	диминяца	диминяцэ	NOUN	_	_	1	nsubj	_	_
+3	ка	ка	ADV	_	_	4	advmod	_	_
+4	хора	хорэ	NOUN	_	_	2	obl	_	_
+5	де	де	ADP	_	_	6	case	_	_
+6	бабе	бабэ	NOUN	_	_	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 16
+# text = Плоуэ ку булбучь — ходинэ ла служь.
+1	Плоуэ	плоуэ	VERB	_	_	0	root	_	_
+2	ку	ку	ADP	_	_	1	case	_	_
+3	булбучь	булбук	NOUN	_	_	1	nsubj	_	_
+4	—	—	PUNCT	_	_	3	punct	_	_
+5	ходинэ	ходина	NOUN	_	_	1	nmod	_	_
+6	ла	ла	ADP	_	_	7	case	_	_
+7	служь	слугэ	NOUN	_	_	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 17
+# text = Плоая мэрунцикэ мултэ време цине.
+1	Плоая	плоае	NOUN	_	_	5	nsubj	_	_
+2	мэрунцикэ	мэрунцикэ	ADJ	_	_	1	amod	_	_
+3	мултэ	мулт	DET	_	_	4	det	_	_
+4	време	време	NOUN	_	_	5	obj	_	_
+5	цине	цине	VERB	_	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 18
+# text = Лас’сэ нингэ, сэ плоае, нумай време ря сэ ну се факэ.
+1-2	Лас’сэ	_	_	_	_	_	_	_	_
+1	Лас'	лэса	VERB	_	_	0	root	_	_
+2	сэ	сэ	PART	_	_	1	mark	_	_
+3	нингэ	нингэ	VERB	_	_	1	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	сэ	сэ	PART	_	_	6	mark	_	_
+6	плоае	плоуа	VERB	_	_	1	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	нумай	нумай	ADV	_	_	9	advmod	_	_
+9	време	време	NOUN	_	_	14	obj	_	_
+10	ря	рэу	ADJ	_	_	9	amod	_	_
+11	сэ	сэ	PART	_	_	14	mark	_	_
+12	ну	ну	PART	_	_	14	advmod	_	_
+13	се	сине	PRON	_	_	14	expl:pv	_	_
+14	факэ	фаче	VERB	_	_	1	parataxis	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 19
+# text = Кынд плоуэ, нимень ну вынтурэ.
+1	Кынд	кынд	ADV	_	_	2	advmod	_	_
+2	плоуэ	плоуа	VERB	_	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	нимень	нимень	PRON	_	_	2	nsubj	_	_
+5	ну	ну	PART	_	_	6	advmod	_	_
+6	вынтурэ	вынтура	VERB	_	_	2	advcl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 20
+# text = Кынд апа се ымфлэ ши дялурь афундэ.
+1	Кынд	кынд	ADV	_	_	4	advmod	_	_
+2	апа	апэ	NOUN	_	_	4	nsubj	_	_
+3	се	сине	PRON	_	_	4	expl:pv	_	_
+4	ымфлэ	ымфла	VERB	_	_	0	root	_	_
+5	ши	ши	CCONJ	_	_	7	cc	_	_
+6	дялурь	дял	NOUN	_	_	7	obj	_	_
+7	афундэ	афунда	VERB	_	_	4	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 21
+# text = Пынэ ну плоуэ, ну се фак чуперчиле.
+1	Пынэ	пынэ	SCONJ	_	_	3	mark	_	_
+2	ну	ну	PART	_	_	3	advmod	_	_
+3	плоуэ	плоуа	VERB	_	_	7	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ну	ну	PART	_	_	7	advmod	_	_
+6	се	сине	PRON	_	_	7	expl:pv	_	_
+7	фак	фаче	VERB	_	_	0	root	_	_
+8	чуперчиле	чуперкэ	NOUN	_	_	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 22
+# text = Ну-й плоае — ну-й мынкаре.
+1	Ну	ну	PART	_	_	2	advmod	_	SpaceAfter=No
+2	-й	фи	VERB	_	_	0	root	_	_
+3	плоае	плоае	NOUN	_	_	2	nsubj	_	_
+4	—	—	PUNCT	_	_	3	punct	_	_
+5	ну	ну	PART	_	_	6	advmod	_	SpaceAfter=No
+6	-й	фи	VERB	_	_	2	xcomp	_	_
+7	мынкаре	мынкаре	NOUN	_	_	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 23
+# text = Ку о пикэтурэ де плоае - пэмынтул ну се моае.
+1	Ку	ку	ADP	_	_	3	case	_	_
+2	о	ун	DET	_	_	3	det	_	_
+3	пикэтурэ	пикэтурэ	NOUN	_	_	10	obl	_	_
+4	де	де	ADP	_	_	5	case	_	_
+5	плоае	плоае	NOUN	_	_	3	nmod	_	_
+6	-	-	PUNCT	_	_	3	punct	_	_
+7	пэмынтул	пэмынт	NOUN	_	_	10	nsubj	_	_
+8	ну	ну	PART	_	_	10	advmod	_	_
+9	се	сине	PRON	_	_	10	expl:pv	_	_
+10	моае	муя	VERB	_	_	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 24
+# text = Пе сечетэ маре ый бунэ ши гриндина.
+1	Пе	пе	ADP	_	_	2	case	_	_
+2	сечетэ	сечетэ	NOUN	_	_	5	obl	_	_
+3	маре	маре	ADJ	_	_	2	amod	_	_
+4	ый	ел	PRON	_	_	5	nsubj	_	_
+5	бунэ	бун	ADJ	_	_	0	root	_	_
+6	ши	ши	CCONJ	_	_	7	cc	_	_
+7	гриндина	гриндина	NOUN	_	_	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 25
+# text = Пынэ ну тунэ, ну се адунэ.
+1	Пынэ	пынэ	SCONJ	_	_	3	mark	_	_
+2	ну	ну	PART	_	_	3	advmod	_	_
+3	тунэ	туна	VERB	_	_	7	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ну	ну	PART	_	_	7	advmod	_	_
+6	се	сине	PRON	_	_	7	expl:pv	_	_
+7	адунэ	адуна	VERB	_	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 26
+# text = Дупэ плоае вине соаре.
+1	Дупэ	дупэ	ADP	_	_	2	case	_	_
+2	плоае	плоае	NOUN	_	_	3	obl	_	_
+3	вине	вени	VERB	_	_	0	root	_	_
+4	соаре	соаре	NOUN	_	_	3	nsubj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 27
+# text = Ын пэмынтул негру се фаче пыня албэ.
+1	Ын	ын	ADP	_	_	2	case	_	_
+2	пэмынтул	пэмынт	NOUN	_	_	5	obl	_	_
+3	негру	негру	ADJ	_	_	2	amod	_	_
+4	се	сине	PRON	_	_	5	expl:pv	_	_
+5	фаче	фаче	VERB	_	_	0	root	_	_
+6	пыня	пыне	NOUN	_	_	5	nsubj	_	_
+7	албэ	алб	ADJ	_	_	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 28
+# text = Пэмынтул кыт де бун, фэрэ лукрэторь сэлбатик рэмыне.
+1	Пэмынтул	пэмынт	NOUN	_	_	9	nsubj	_	_
+2	кыт	кыт	ADV	_	_	9	advmod	_	_
+3	де	де	ADP	_	_	2	fixed	_	_
+4	бун	бун	ADJ	_	_	2	fixed	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	фэрэ	фэрэ	ADP	_	_	7	case	_	_
+7	лукрэторь	лукрэтор	NOUN	_	_	1	nmod	_	_
+8	сэлбатик	сэлбатик	ADJ	_	_	7	amod	_	_
+9	рэмыне	рэмыне	VERB	_	_	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 29
+# text = Орьче лемн ышь аре вермеле сэу.
+1	Орьче	орьче	DET	_	_	2	det	_	_
+2	лемн	лемн	NOUN	_	_	4	nsubj	_	_
+3	ышь	сине	PRON	_	_	4	expl:pv	_	_
+4	аре	авя	VERB	_	_	0	root	_	_
+5	вермеле	верме	NOUN	_	_	4	obj	_	_
+6	сэу	сэу	DET	_	_	5	det	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 30
+# text = Пофта вине мынкынд.
+1	Пофта	пофтэ	NOUN	_	_	2	nsubj	_	_
+2	вине	вени	VERB	_	_	0	root	_	_
+3	мынкынд	мынка	VERB	_	_	2	advcl	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
